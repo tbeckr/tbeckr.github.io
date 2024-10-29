@@ -18,20 +18,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Blog do Becker
+email: beckerth@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Bem-vindo ao meu blog! Aqui, compartilho minhas opiniões pessoais sobre tecnologia,
+  desenvolvimento de software e outros assuntos aleatórios.
+  Sinta-se à vontade para se juntar a mim nessa jornada de reflexão e troca de ideias!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: beckert
+github_username: tbeckr
 
 # Build settings
-# theme: architect
-remote-theme: pages-themes/architect@v0.2.0
+theme: minima
+# remote-theme: pages-themes/architect@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
